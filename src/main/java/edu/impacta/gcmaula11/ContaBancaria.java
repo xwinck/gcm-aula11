@@ -18,9 +18,7 @@ public class ContaBancaria {
 	}
 	
 	public long getSaldo() {
-		// FALTA IMPLEMENTAR
-		// Deve retornar o saldo
-		return 0;
+		return saldo;
 	}
 	
 }
