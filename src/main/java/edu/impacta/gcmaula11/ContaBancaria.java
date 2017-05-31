@@ -6,10 +6,15 @@ public class ContaBancaria {
 	public ContaBancaria(long s) { saldo = s; }
 	
 	public void depositar(long valor) {
+		
 	}
 	
 	public boolean sacar(long valor) {
-		return true;
+		if(valor <= saldo) {
+			saldo -= valor;	
+			return true;
+		} 
+		return false;
 	}
 	
 	public long getSaldo() {
